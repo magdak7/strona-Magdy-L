@@ -1,0 +1,250 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+background-color: whitesmoke;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 60px;
+    line-height: 60px;
+    background-color: white;
+    text-align: center;
+
+}
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.burger-icon {
+    display: block;
+    margin-left: auto;
+    padding: 0 30px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.nav-items {
+    display: none;
+}
+
+
+.nav-items a {
+    padding: 0 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-items a:hover {
+    color: #09f;
+}
+
+.header {position: relative;
+height: 330px;
+background-image: url('../img/m1.jpg');
+background-size: cover;
+background-position: center;
+}
+
+
+.wolf-bg {
+ position: absolute;
+ width: 100%;  
+ height: 100%;
+ background-color: rgba(0,0,0,.8);
+}
+
+
+.didactic-bg {
+    position: absolute;
+    width: 100%;  
+    height: 100%;
+    background-color: rgba(0,0,0,.7); 
+    }
+
+    .publications-bg {
+        position: absolute;
+        width: 100%;  
+        height: 100%;
+        background-color: rgba(0,0,0,.7); 
+        }
+    
+
+   .didactic a {
+    text-decoration: none;
+    color: azure;
+   }
+
+   
+.didactic a:hover{
+    color:aqua
+}
+
+   .publications a {
+    text-decoration: none;
+    color: azure;
+   }
+
+   .publications a:hover{
+    color:aqua
+}
+
+.publications-bg {
+    position: absolute;
+    width: 100%;  
+    height: 100%;
+   }
+
+.publications {
+    background-color: rgba(0,0,0,.7); 
+}
+
+.wolf-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.publications-text {
+    position: absolute;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.wolf-text h1 {
+    margin-bottom: 5px;
+    text-shadow: 0px 3px 5px #000;
+    color: #ddd;
+}
+
+.publications-text h1 {
+    margin-bottom: 5px;
+    text-shadow: 0px 3px 5px #000;
+    color: #ddd;
+}
+
+.wolf-text span {
+    text-transform: uppercase;
+    color: #09f;
+}
+
+.publications-text span {
+    text-transform: uppercase;
+    color: #09f;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+
+main {
+    margin: 80px 0;
+}
+
+.about-us-info {
+    padding: 50px;
+    height: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+  color:black;
+}
+
+.about-us {
+    background-color: #ddd;
+   
+}
+
+.product :hover h3 {
+    transform: scale(1.6);
+}
+
+.math{
+    padding: auto;
+   font-size: 20px;
+   margin-bottom: 30px;
+}
+
+.didactic {
+    position: relative;
+    height: 400px;
+    background-image: url('../img/pi.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  
+}
+
+.didactic h3 {
+    text-transform: uppercase;
+    transition: transform .3s;
+}
+
+.publications {
+    margin-top: 20px;
+    position: relative;
+    height: 400px;
+    background-image: url('../img/publikacje.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  
+}
+
+.publications a:hover{
+    color:aqua
+}
+
+.publications h3 {
+    text-transform: uppercase;
+    transition: transform .3s;
+}
+
+.contact {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact h3 {
+    margin: 20px 0 5px;
+    text-transform: uppercase;
+}
+
+footer {
+    padding: 30px 10px;
+    text-align: center;
+    background-color: #ddd;
+}
+
+@media (min-width: 738px) {
+    .burger-icon {
+        display: none;
+    }
+    .nav-items {
+        display: block;
+    }
+    .header {
+        background-image: url(../img/m5.jpg);
+    }
+}
